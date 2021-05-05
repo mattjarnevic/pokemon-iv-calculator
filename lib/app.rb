@@ -38,7 +38,7 @@ def run
   Prompt.result(pokemon.print_ivs)
 
   input = Prompt.ask("Would you like to look at another pokemon? (Y/n)")
-  if input.downcase == 'y' || input.downcase == 'yes' ? run : exit
+  input.downcase == 'y' || input.downcase == 'yes' ? run : exit
 end
 
 begin

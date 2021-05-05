@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = "A simple command line tool to Calculate Pokemons IVs."
   s.authors     = ["Matt Jarnevic"]
   s.email       = 'matt.jarnevic@wpengine.com'
-  s.files       = ["lib/*"]
+  s.files       = Dir.glob("lib}/**/*") + %w(LICENSE README.md)
   s.homepage    = 'https://rubygems.org/gems/pokemon-iv-calculator'
   s.license     = 'MIT'
 end

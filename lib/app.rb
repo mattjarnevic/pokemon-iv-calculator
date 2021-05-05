@@ -43,7 +43,7 @@ end
 
 begin
   input = Prompt.ask("Would you like to listen to some pokemon music? (Y/n)")
-  music = Thread.new { `afplay sounds/music.mp3 -v 0.05` } if input.downcase == 'y' || input.downcase == 'yes'
+  music = Thread.new { `afplay lib/sounds/music.mp3 -v 0.05` } if input.downcase == 'y' || input.downcase == 'yes'
   run
 rescue => e
   Prompt.say(e.message)

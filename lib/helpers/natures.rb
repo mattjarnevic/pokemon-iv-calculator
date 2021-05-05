@@ -1,0 +1,28 @@
+NATURES =
+  {
+    adamant: { hp: 1, atk: 1.1, def: 1,   spa: 0.9, spd: 1,   spe: 1,   summary: "+Atk, -SpA" },
+    bashful: { hp: 1, atk: 1,   def: 1,   spa: 1,   spd: 1,   spe: 1,   summary: "Neutral" },
+    bold:    { hp: 1, atk: 0.9, def: 1.1, spa: 1,   spd: 1,   spe: 1,   summary: "+Def, -Atk" },
+    brave:   { hp: 1, atk: 1.1, def: 1,   spa: 1,   spd: 1,   spe: 0.9, summary: "+Atk, -Spe" },
+    calm:    { hp: 1, atk: 0.9, def: 1,   spa: 1,   spd: 1.1, spe: 1,   summary: "+SpD, -Atk" },
+    careful: { hp: 1, atk: 1,   def: 1,   spa: 0.9, spd: 1.1, spe: 1,   summary: "+SpD, -SpA" },
+    docile:  { hp: 1, atk: 1,   def: 1,   spa: 1,   spd: 1,   spe: 1,   summary: "Neutral" },
+    gentle:  { hp: 1, atk: 1,   def: 0.9, spa: 1,   spd: 1.1, spe: 1,   summary: "+SpD, -Def" },
+    hardy:   { hp: 1, atk: 1,   def: 1,   spa: 1,   spd: 1,   spe: 1,   summary: "Neutral" },
+    hasty:   { hp: 1, atk: 1,   def: 0.9, spa: 1,   spd: 1,   spe: 1.1, summary: "+Spe, -Def" },
+    impish:  { hp: 1, atk: 1,   def: 1.1, spa: 0.9, spd: 1,   spe: 1,   summary: "+Def, -SpA" },
+    jolly:   { hp: 1, atk: 1,   def: 1,   spa: 0.9, spd: 1,   spe: 1.1, summary: "+Spe, -SpA" },
+    lax:     { hp: 1, atk: 1,   def: 1.1, spa: 1,   spd: 0.9, spe: 1,   summary: "+Def, -SpD" },
+    lonely:  { hp: 1, atk: 1.1, def: 0.9, spa: 1,   spd: 1,   spe: 1,   summary: "+Atk, -Def" },
+    mild:    { hp: 1, atk: 1,   def: 0.9, spa: 1.1, spd: 1,   spe: 1,   summary: "+SpA, -Def" },
+    modest:  { hp: 1, atk: 0.9, def: 1,   spa: 1.1, spd: 1,   spe: 1,   summary: "+SpA, -Atk" },
+    naive:   { hp: 1, atk: 1,   def: 1,   spa: 1,   spd: 0.9, spe: 1.1, summary: "+Spe, -SpD" },
+    naughty: { hp: 1, atk: 1.1, def: 1,   spa: 1,   spd: 0.9, spe: 1,   summary: "+Atk, -SpD" },
+    quiet:   { hp: 1, atk: 1,   def: 1,   spa: 1.1, spd: 1,   spe: 0.9, summary: "+SpA, -Spe" },
+    quirky:  { hp: 1, atk: 1,   def: 1,   spa: 1,   spd: 1,   spe: 1,   summary: "Neutral" },
+    rash:    { hp: 1, atk: 1,   def: 1,   spa: 1.1, spd: 0.9, spe: 1,   summary: "+SpA, -SpD" },
+    relaxed: { hp: 1, atk: 1,   def: 1.1, spa: 1,   spd: 1,   spe: 0.9, summary: "+Def, -Spe" },
+    sassy:   { hp: 1, atk: 1,   def: 1,   spa: 1,   spd: 1.1, spe: 0.9, summary: "+SpD, -Spe" },
+    serious: { hp: 1, atk: 1,   def: 1,   spa: 1,   spd: 1,   spe: 1,   summary: "Neutral" },
+    timid:   { hp: 1, atk: 0.9, def: 1,   spa: 1,   spd: 1,   spe: 1.1, summary: "+Spe, -Atk" }
+  }

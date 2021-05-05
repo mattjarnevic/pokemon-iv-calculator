@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name         = 'pokemon-iv-calculator'
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.summary      = "Calculate Pokemons IVs from the Command Line! No support for EVs."
   s.description  = "A simple command line tool to Calculate Pokemons IVs."
   s.authors      = ["Matt Jarnevic"]
